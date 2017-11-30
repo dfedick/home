@@ -18,7 +18,7 @@ git branch -d branch-recipe
 ```bash
 *  #Ignore everything
 
-* But not these files.
+# But not these files.
 !.gitignore
 !.bash_profile
 # Even if they are in subdirectories
