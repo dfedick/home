@@ -1,10 +1,13 @@
 # Git Notes: 
+
 **Create and push branch:**
-  git branch base-recipe
+
+git branch base-recipe
   git push origin base-recipe
 
 **Delete a branch**
-  git branch -d branch-recipe
+
+git branch -d branch-recipe
 
 
 
