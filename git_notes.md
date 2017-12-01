@@ -23,3 +23,11 @@ git branch -d branch-recipe
 !.bash_profile
 # Even if they are in subdirectories
 !*/
+
+
+--------------------------
+
+**Setup Email and Author in Github**
+
+git config user.email "dan@zaius.com"
+
