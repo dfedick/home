@@ -15,7 +15,8 @@ export PS1="\n$C_LIGHTGREEN\u$C_DARKGRAY@$C_BLUE\h $C_DARKGRAY: $C_LIGHTYELLOW\w
 # Aliases
 alias ll='ls -Galrth'
 alias commander='ssh commander@commander.vdl.e2nova'
-alias ta='tmux attach'
 alias e2nova='ssh dfedick@pzadm01.vdl.e2nova'
 alias e2nvoa='ssh dfedick@pzadm01.vdl.e2nova'
 alias eno2va='ssh dfedick@pzadm01.vdl.e2nova'
+alias ta='ssh dfedick@pzadm01.vdl.e2nova -t '\''tmux -CC attach -c "$PWD"'\'''
+alias tn='ssh dfedick@pzadm01.vdl.e2nova -t '\''tmux -CC -c "$PWD"'\'''
