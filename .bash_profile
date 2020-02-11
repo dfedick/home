@@ -1,6 +1,6 @@
 # Set Default editor to vi
 export EDITOR=vi
-set -o vi
+set -o emacs
 
 
 #Bash Colors: 
